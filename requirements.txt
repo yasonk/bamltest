@@ -1,0 +1,3 @@
+baml-py
+python-dotenv
+pydantic
