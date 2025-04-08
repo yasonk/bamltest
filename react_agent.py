@@ -26,13 +26,9 @@ def calculator_api_call(calc: CalculatorAPI):
 
 
 def main():
-    print("Agent started! Type 'exit' to quit.")
     observations = []
 
-    # Get user input
-    user_input = input("You: ")
-    if user_input.lower() == "exit":
-        return
+    user_input = "Find the current weather in Seattle and multiply by 2."
 
     while True:
         # Call the BAML function to select tool
